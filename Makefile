@@ -20,3 +20,5 @@ alignment.phb: alignment.fasta
 
 clean:
 	rm -f alignment.dnd alignment.fasta alignment.ph alignment.phb clusters.fasta
+
+# Possible future topic: adding to existing alignments via profile alignments.
