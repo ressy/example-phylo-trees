@@ -5,6 +5,7 @@ clusters.fasta:
 
 # Align the input sequences and output in FASTA format, and also save the guide
 # tree in Phylip format.
+# pro tip: use clustalw2 -help, not -h or --help.
 alignment.fasta: clusters.fasta
 	clustalw2 -infile=$^ -outfile=$@ -align -output=fasta -newtree=alignment.dnd
 
